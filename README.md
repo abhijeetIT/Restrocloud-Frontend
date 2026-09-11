@@ -14,7 +14,6 @@ npm install
 npm run dev
 ```
 
-Opens at: **http://localhost:3000**
 
 > ✅ All API calls are proxied to `http://localhost:8081` via Vite's proxy config.
 
