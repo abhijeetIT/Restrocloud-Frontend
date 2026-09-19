@@ -80,6 +80,7 @@ export const analyticsApi = {
 }
 export default client
 
+//OTP handled
 export const otpApi = {
   send:   data => client.post('/auth/send-otp', data),   // { email, purpose }
   verify: data => client.post('/auth/verify-otp', data), // { email, otp }
